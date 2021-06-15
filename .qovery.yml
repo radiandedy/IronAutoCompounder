@@ -1,0 +1,11 @@
+---
+application:
+  name: "ironautocompounder"
+  project: "IronAutoCompounder"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-ironautocompounder"
+  routes:
+  - application_name: "ironautocompounder"
+    paths:
+    - "/*"
